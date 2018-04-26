@@ -12,7 +12,7 @@ public class CreateLeadExcel {
 	public Object[][] readExcel() throws IOException {
 		 
 		 //open 
-		 XSSFWorkbook wBook= new XSSFWorkbook("C:/Selenium_TestLeaf/Selenium/excelData/CreateLeadExcel.xlsx");
+		 XSSFWorkbook wBook= new XSSFWorkbook("./data/TC003_CreateLeadData.xlsx");
 		 
 		 XSSFSheet sheet = wBook.getSheetAt(0);
 		 
